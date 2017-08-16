@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary      = "A short description of repositoryDemo."	#简介
   s.description  = "a repository demo"				#描述
   s.homepage     = "https://github.com/xiaowu2016/repositoryDemo"		#项目主页，不是git地址
-  s.license      = { :type => "MIT", :file => "FILE_LICENSE" }	#开源协议
+  s.license      = { :type => "MIT", :file => "LICENSE" }	#开源协议
   s.author             = { "zhangchao" => "942777491@qq.com" }	#作者
   s.platform     = :ios, "7.0"					#支持的平台和版本号
   s.source       = { :git => "https://github.com/xiaowu2016/repositoryDemo.git", :tag => "0.0.1" }	#存储库的git地址，以及tag值
