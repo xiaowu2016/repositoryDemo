@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.author             = { "zhangchao" => "942777491@qq.com" }	#作者
   s.platform     = :ios, "7.0"					#支持的平台和版本号
   s.source       = { :git => "https://github.com/xiaowu2016/repositoryDemo.git", :tag => "0.0.1" }	#存储库的git地址，以及tag值
-  s.source_files  = "repositoryDemo", "repositoryDemo/repositoryDemo/Other/**/*.{h,m}"			#需要托管的源代码路径
+  s.source_files  =  "repositoryDemo/Other/**/*.{h,m}"	#需要托管的源代码路径
   s.requires_arc = true	#是否支持ARC
   s.dependency "Masonry", "~> 1.0.0"	#所依赖的第三方库，没有就不用写
 
